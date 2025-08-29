@@ -1,0 +1,13 @@
+id,listing_id,property_name,address,city,area_sqft,bedrooms,bathrooms,price,price_currency,property_type,availability,short_description,agent_email
+1,P001,Sunrise Apartments,"123 Palm St",Dubai,950,2,2,250000,USD,Apartment,Available,"Sea-view 2BHK near metro",agent1@zorever.com
+2,P002,Desert View Villa,"45 Oasis Road",Dubai,2400,4,4,1250000,USD,Villa,On Request,"Private pool & garden",agent2@zorever.com
+3,P003,Marina Studio,"8 Bay Lane",Dubai,420,0,1,95000,USD,Studio,Available,"Compact studio near marina",agent3@zorever.com
+4,P004,City Center Office,"10 Finance Ave",Mumbai,1500,0,2,350000,USD,Office,Available,"Prime office space in CBD",agent4@zorever.com
+5,P005,Green Meadows,"22 Lotus St",Bangalore,1300,3,2,320000,USD,Apartment,Available,"Family-friendly 3BHK with park access",agent5@zorever.com
+6,P006,Lakeside Residence,"5 Lake Rd",Hyderabad,1800,3,3,410000,USD,Apartment,Available,"Lake view, gated community",agent6@zorever.com
+7,P007,Old Town Cottage,"9 Heritage Ln",Jaipur,950,2,1,120000,USD,Cottage,Sold,"Charming heritage-style cottage",agent7@zorever.com
+8,P008,TechPark Studio,"Plot 18 TechPark",Pune,600,1,1,110000,USD,Studio,Available,"Ideal for singles/professionals",agent8@zorever.com
+9,P009,Riverfront Villa,"1 Riverside Dr",Gurgaon,3000,5,5,1500000,USD,Villa,Available,"Large family villa with river view",agent9@zorever.com
+10,P010,Midtown Flat,"78 Central Ave",Kolkata,820,2,2,185000,USD,Apartment,On Request,"Modern 2BHK near transport",agent10@zorever.com
+11,P011,Corner Shop,"6 Market St",Noida,400,0,1,75000,USD,Commercial,Available,"Retail shop in busy market",agent11@zorever.com
+12,P012,Suburban House,"33 Maple Drive",Chennai,1600,3,2,210000,USD,House,Available,"Quiet neighborhood, good schools",agent12@zorever.com
