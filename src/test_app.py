@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("🏠 Zorever Real Estate Chatbot - Test")
+st.title("Zorever Real Estate Chatbot - Test")
 st.write("This is a test to see if the basic interface loads.")
 
 st.write("If you can see this, Streamlit is working!")
