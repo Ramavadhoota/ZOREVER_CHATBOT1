@@ -3,12 +3,12 @@ import os
 import sys
 sys.path.append('src')
 
-st.title("🏠 Zorever Real Estate Chatbot - Debug")
+st.title("Zorever Real Estate Chatbot - Debug")
 st.write("Loading...")
 
 try:
     from helpers import PropertyHelper, FAQHelper, detect_intent
-    st.write("✅ Helpers imported successfully")
+    st.write("Helpers imported successfully")
     
     # Initialize helpers
     @st.cache_resource
@@ -16,13 +16,13 @@ try:
         return PropertyHelper(), FAQHelper()
 
     property_helper, faq_helper = load_helpers()
-    st.write("✅ Helpers initialized successfully")
+    st.write("Helpers initialized successfully")
     
 except Exception as e:
-    st.error(f"❌ Error loading helpers: {e}")
+    st.error(f"Error loading helpers: {e}")
     st.stop()
 
-st.write("✅ App loaded successfully!")
+st.write("App loaded successfully!")
 
 # Initialize session state for booking flow
 if 'booking_state' not in st.session_state:
