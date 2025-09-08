@@ -105,7 +105,7 @@ if not st.session_state.user_logged_in:
 
 # Main Chatbot Interface
 else:
-    st.title("🏠 Zorever Real Estate Chatbot")
+    st.title("Zorever Real Estate Chatbot")
     st.write(f"Welcome, {st.session_state.user_info['name']}! Ask me about properties, book visits, or general FAQs!")
     
     # User info in sidebar
@@ -123,7 +123,7 @@ else:
             st.session_state.booking_data = {}
             st.rerun()
         
-        st.header("💡 Sample Queries")
+        st.header("Sample Queries")
         st.write("**Property Queries:**")
         st.write("- What is the price of P003?")
         st.write("- Show details for Sunrise Apartments")
@@ -190,7 +190,7 @@ else:
                     user_message=f"Visit booking for {property_name or 'any property'}"
                 )
                 
-                response = f"✅ Visit booking confirmed!\n\n**Booking Details:**\n- Name: {st.session_state.booking_data['name']}\n- Phone: {st.session_state.booking_data['phone']}\n- Property: {property_name or 'Any property'}\n\nOur agent will contact you shortly to schedule the visit."
+                response = f"Visit booking confirmed!\n\n**Booking Details:**\n- Name: {st.session_state.booking_data['name']}\n- Phone: {st.session_state.booking_data['phone']}\n- Property: {property_name or 'Any property'}\n\nOur agent will contact you shortly to schedule the visit."
                 
                 # Reset booking state
                 st.session_state.booking_state = None
