@@ -27,10 +27,10 @@ class PropertyHelper:
             try:
                 if os.path.exists(path):
                     self.properties_df = pd.read_csv(path)
-                    print(f"✅ Successfully loaded CSV from: {path}")
+                    print(f"Successfully loaded CSV from: {path}")
                     break
             except Exception as e:
-                print(f"❌ Failed to load from {path}: {e}")
+                print(f"Failed to load from {path}: {e}")
                 continue
         
         if self.properties_df is None:
@@ -40,7 +40,7 @@ class PropertyHelper:
         
     def get_property_by_id(self, listing_id):
         """Get property by exact listing_id match"""
-        print(f"🔍 Searching for property ID: {listing_id}")
+        print(f"Searching for property ID: {listing_id}")
         print(f"Available IDs: {list(self.properties_df['listing_id'])}")
         property_data = self.properties_df[self.properties_df['listing_id'] == listing_id]
         print(f"Found {len(property_data)} matches")
@@ -53,9 +53,9 @@ class PropertyHelper:
         property_name = property_name.lower()
         for _, row in self.properties_df.iterrows():
             if property_name in row['property_name'].lower():
-                print(f"✅ Found match: {row['property_name']}")
+                print(f"Found match: {row['property_name']}")
                 return row
-        print("❌ No matches found")
+        print("No matches found")
         return None
     
     def format_property_details(self, property_data):
