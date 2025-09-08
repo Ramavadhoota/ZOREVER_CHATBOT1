@@ -13,9 +13,9 @@ for path in csv_paths:
     if os.path.exists(path):
         try:
             df = pd.read_csv(path)
-            print(f"✅ Successfully read CSV with {len(df)} rows")
+            print(f"Successfully read CSV with {len(df)} rows")
             print(f"Columns: {list(df.columns)}")
             print(f"First row: {df.iloc[0].to_dict()}")
         except Exception as e:
-            print(f"❌ Error reading CSV: {e}")
+            print(f"Error reading CSV: {e}")
     print()
